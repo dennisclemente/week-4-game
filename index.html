@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+	     <title>week-4-game</title>
+
+   <link rel="stylesheet" type="text/css" href="assets/style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+   <header>
+        <h2 id ="game">week-4-game</h2>
+   </header>
+
+    <div class="Gameplay">
+      <p>There are four crystals. Click on each crystal to add points to your total score.</p>
+      <p>You win if your total score matches the random number from the game start.</p> 
+      <p>You lose if your score goes above the random number.</p>
+      </div>
+    
+    <div class="start">
+        <div class="total"></div>
+    	
+        <div class="result">
+        	Wins:<div id="wins"></div>
+        	Losses:<div id="losses"></div>
+        </div>
+    </div>
+
+    <div class="crystals">
+        <img src="assets/images/red-crystal.png" class="click" id="red">
+        <img src="assets/images/blue-crystal.png" class="click" id="blue">
+        <img src="assets/images/yellow-crystal.png" class="click" id="yellow">
+        <img src="assets/images/green-crystal.png" class="click" id="green">
+   </div>
+   <div class="score">
+        <h4>Your total score is:</h4>
+   </div>
+   <div class="addition"></div>
+   
+   <script type="text/javascript" src="assets/game.js"></script>
+
+</body>
+</html>
